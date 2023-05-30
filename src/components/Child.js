@@ -1,7 +1,9 @@
 import React from "react";
 
-function Child() {
-    return <div id="child"></div>;
+function Child({age}) {
+    return <div id="child">
+        <p id="text">Today I am {age} Years of Age</p>
+    </div>;
 }
 
 export default Child;
